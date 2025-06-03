@@ -1,0 +1,58 @@
+body {/* estilo do corpo da página */
+    font-family: Arial, sans-serif; /* DEfine a fonte do texto */
+    margin: 0; /* Remove margem externa */
+    padding: 0; /* Remove preenchimento interno */
+    background-color:#f2f2f2; /* Define a cor de fundo do site */
+}
+
+header {/* Estilo do cabeçalho */
+background-color: #4CAF50; /* Cor de fundo verde */
+color: white; /* Cor do texto branca */
+padding: 20px; /* Espaço interno */
+text-align: center; /* Centraliza o texto */
+}
+
+nav {/* Estilo da barra de navegação */
+ background-color: #333; /* Cor de fundo cinza escuro */
+ padding: 10px; /* Espaço interno */
+ text-align: center; /* Centraliza os links */
+}
+
+nav a {/* Estilo dos links de navegação */
+ color:white; /* Cor do texto branco */
+ margin: 0 15px; /* Espaço entre os links */
+text-decoration: none; /* Remove o sublinhado */
+}
+
+nav a:hover { /* Efeito ao passar o mouse sobre o link */
+text-decoration: underline; /* Adiciona sublinhado */
+}
+
+main { /* Estilo da área principal de conteúdo */
+padding: 20px; /* Espaço interno */
+}
+
+footer { /* Estilo do rodapé */
+background-color: #222; /* Cor de fundo escura */
+color: white; /* Texto branco */
+text-align: center; /* Centraliza o texto */
+padding: 10px; /* Espaço interno */
+position: fixed; /* Fixa no final da tela */
+bottom: 0; /* Cola no rodapé */
+width: 100%; /* Ocupa toda a largura */
+}
+
+.capa img {
+    text-align: center; /* Centraliza verticalmente */
+    width: 100%;  /* Largura do container */
+    width: 100px; /* Define a largura desejada */
+    height: auto; /* Mantém a proporção da imagem */
+    width: 100%; /* Faz a imagem ocupar 100% da largura do contêiner */ 
+    height: auto; /* Mantém a proporçãiso da imagem */ 
+    display: block; /* Remove espaços indesejados abaixo da imagem */ 
+    object-fit: cover; /* Garante que a imagem cubra o espaço, cortando se necessário */
+ }
+
+  html { overflow-y: hidden; /* Remove apenas a barra de rolagem vertical */ 
+  }
+
